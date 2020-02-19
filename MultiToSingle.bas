@@ -71,9 +71,9 @@ Paste Values Only With PasteSpecial
 '            Date
             OutputRange.Cells(OutRow, 1) = Format(ExistingTable.Cells(1, col_p), "mm/dd/yyyy")
 
-'            Line
+'            Category
             OutputRange.Cells(OutRow, 2) = ExistingTable.Cells(r, 1)
-'            Style
+'            Product
             OutputRange.Cells(OutRow, 3) = ExistingTable.Cells(r, 2)
             
 '           Plan
