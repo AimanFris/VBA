@@ -1,7 +1,10 @@
-# VBA
+# Sample VBA Scripts
 
-## MultiToSingle.bas
+## Convert Multi-Dimensional Table into Single-Dimensional Table in Excel
 
-program that written in excel vba to convert multi dimensional table to single dimensional automaticaly in excel macro
+Excel Macro that written in VBA to easily convert multi-dimensional table to single dimensional automatically
 
+**Sample Input Table:**
+![Example input Table](/Image/TableBefore.jpg)
 
+After download the .bas file
