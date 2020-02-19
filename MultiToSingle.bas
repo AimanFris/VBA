@@ -63,7 +63,7 @@ Paste Values Only With PasteSpecial
     col_p = 3
     col_a = 4
     Application.ScreenUpdating = False
-    OutputRange.Range("A1:E5") = Array("Date", "Line", "Style", "Plan", "Actual")
+            OutputRange.Range("A1:E5") = Array("Date", "Category", "Product", "Plan", "Actual")
     For r = 3 To ExistingTable.Rows.Count
         col_p = 3
         col_a = 4
@@ -72,7 +72,7 @@ Paste Values Only With PasteSpecial
             OutputRange.Cells(OutRow, 1) = Format(ExistingTable.Cells(1, col_p), "mm/dd/yyyy")
 
 '            Line
-            OutputRange.Cells(OutRow, 2) = "Line" & ExistingTable.Cells(r, 1)
+            OutputRange.Cells(OutRow, 2) = ExistingTable.Cells(r, 1)
 '            Style
             OutputRange.Cells(OutRow, 3) = ExistingTable.Cells(r, 2)
             
