@@ -12,7 +12,13 @@ Excel Macro that written in VBA to easily convert multi-dimensional table to sin
 - Do some customizations on the scripts to ensure its compatibility to your table. Do some trials.
 - to run this module, click play icon on the top **or** go to excel on view tab click on ***macro*** and choose the module that was inserted in the Visual Basic  
 
-**Sample Input Table:**
+
+### Sample Input Table:
+
 ![Example input Table](/Image/TableBefore.jpg)
 
+### After Cleaning
+![Example input Table](/Image/Table2.jpg)
 
+### Final Output
+![Example input Table](/Image/TableOutput.jpg)
